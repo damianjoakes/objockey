@@ -1,0 +1,35 @@
+{
+  "name": "@objockey/core",
+  "version": "1.0.0",
+  "description": "Ultra-scalable, fast, easy to use JSON data processing and storage.",
+  "author": "Damian Oakes (https://github.com/damianjoakes)",
+  "homepage": "https://github.com/damianjoakes/objockey",
+  "bugs": "https://github.com/damianjoakes/objockey/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damianjoakes/objockey.git"
+  },
+  "keywords": [
+    "JSON",
+    "objockey",
+    "data",
+    "manipulation",
+    "object",
+    "array",
+    "method",
+    "median",
+    "mode",
+    "es6",
+    "purejs",
+    "indexing",
+    "aggregation"
+  ],
+  "main": "./src/index.mjs",
+  "module": "./lib/index.js",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5"
+  }
+}
